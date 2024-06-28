@@ -1,7 +1,7 @@
 ![alt text](https://res.cloudinary.com/witspry/image/upload/witscad/public/content/courses/computer-architecture/stack-cpu-operation.jpg)
 
 # Stack Based ALU
-Our project is a Stack Based ALU which is capable of doing 4 operations:
+Our project is a Stack Based ALU which is capable of doing 4 basic operations:
   1. Pushing number inside the stack (PUSH)
   2. Poping the most recent number outside of the stack (POP)
   3. Adding the two most recent numbers in the stack (Addition)
@@ -12,7 +12,7 @@ In this project we didn't use any particular tools. we coded our hardware
 description in verilog language and simulated it using ModelSim
 
 ## Implementation Details
-Our Project is consisted of a STACK_BASED_ALU modules that contains the logic of
+Our Project is consisted of a STACK_BASED_ALU module that contains the logic of
 our hardware and a testbench module that simulates our hardware based on different inputs
 
 ### STACK_BASED_ALU.v
@@ -23,6 +23,7 @@ As we mentioned our ALU is capable of four basic operations. For these operation
   4. A 1-bit clock input to synchronize our ALU
   5. A 1-bit reset input to return our stack and ALU to its primary state
   6. A 3-bit opcode
+
 we decide which operation we should perform based on our opcode:
   * opcode '100' = Addition
   * opcode '101' = Multiply
@@ -35,3 +36,15 @@ we can find the top of our stack
 
 based on any changes in our clock our module evaluates it's inputs and either does one of the aforementioned
 operations if opcode[2] = 1 or does nothing if opcode[2] = 0
+
+### testbench.v
+In our testbench module we instantiate a module of our STACK_BASED_ALU and also define the inputs and outputs
+we used in our STACK_BASED_ALU. Then we make an initial section to give values to our variables and after some
+seconds we change our inputs to simulate the different operations our ALU is capable of.
+
+We change the clock every 5 nano-seconds and so the module determines its result again each time the clock changes.
+
+The default operation bits of our ALU is 16 but we tested on 4, 8, 16 and 32 bit datas and you can change the number
+bits by changing out defined Parameter n to a new value
+
+## How to Run
