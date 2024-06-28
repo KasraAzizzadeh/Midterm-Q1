@@ -1,3 +1,4 @@
+# Description
 This is the documnetation of our project that contains:
 1. Description of hardware
 2. Explanation for different parts of out code
