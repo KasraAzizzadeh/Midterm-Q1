@@ -63,6 +63,7 @@ Simulation Data:
 
 --------
 Simulation Results:
+
 ![Simulation Results](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Result.png)
 --------
 
