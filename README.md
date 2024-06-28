@@ -1,4 +1,4 @@
-![alt text](https://res.cloudinary.com/witspry/image/upload/witscad/public/content/courses/computer-architecture/stack-cpu-operation.jpg)
+![alt text](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/stack-cpu-operation.jpg)
 
 # Stack Based ALU
 Our project is a Stack Based ALU which is capable of doing 4 basic operations:
@@ -53,11 +53,14 @@ To run our project you need to open the codes with ModelSim and run a simulation
 result you can change our datas and check your own inputs.
 
 Below we show an example of a simulation data and it's results:
+
 --------
-Simulation Data
+![Simulation Data1](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Data1.png)
+![Simulation Data2](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Data2.png)
 --------
+
 --------
-Simulation Results
+![Simulation Results](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Result.png)
 --------
 
 ## Authors
