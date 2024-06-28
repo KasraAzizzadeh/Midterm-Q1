@@ -1,7 +1,9 @@
 # Description
 This project is consisted of two verilog files: 
-\n1.STACK_BASED_ALU 
-\n2.testbench
+
+1.STACK_BASED_ALU 
+
+2.testbench
 
 ## STACK_BASED_ALU
 In this file we define our inputs and our outputs and describe
