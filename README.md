@@ -40,7 +40,8 @@ operations if opcode[2] = 1 or does nothing if opcode[2] = 0
 ### testbench.v
 In our testbench module we instantiate a module of our STACK_BASED_ALU and also define the inputs and outputs
 we used in our STACK_BASED_ALU. Then we make an initial section to give values to our variables and after some
-seconds we change our inputs to simulate the different operations our ALU is capable of.
+seconds we change our inputs to simulate the different operations our ALU is capable of. For checking our results we 
+usee the $display function to inform us of our outputs.
 
 We change the clock every 5 nano-seconds and so the module determines its result again each time the clock changes.
 
@@ -48,3 +49,17 @@ The default operation bits of our ALU is 16 but we tested on 4, 8, 16 and 32 bit
 bits by changing out defined Parameter n to a new value
 
 ## How to Run
+To run our project you need to open the codes with ModelSim and run a simulation. if you want to simulate a diffrent
+result you can change our datas and check your own inputs.
+
+Below we show an example of a simulation data and it's results:
+--------
+Simulation Data
+--------
+--------
+Simulation Results
+--------
+
+## Authors
+  * Kasra Azizzadeh : 401106222
+  * Arian Noori     : 401106663
