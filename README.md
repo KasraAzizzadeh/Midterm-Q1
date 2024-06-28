@@ -55,11 +55,13 @@ result you can change our datas and check your own inputs.
 Below we show an example of a simulation data and it's results:
 
 --------
+Simulation Data:
 ![Simulation Data1](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Data1.png)
 ![Simulation Data2](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Data2.png)
 --------
 
 --------
+Simulation Results:
 ![Simulation Results](https://github.com/KasraAzizzadeh/Midterm-Q1/blob/main/Misc/Result.png)
 --------
 
