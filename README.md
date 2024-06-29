@@ -27,7 +27,7 @@ As we mentioned our ALU is capable of four basic operations. For these operation
 we decide which operation we should perform based on our opcode:
   * opcode '100' = Addition
   * opcode '101' = Multiply
-  * opcode '110' = PUSJ
+  * opcode '110' = PUSH
   * opcode '111' = POP
   * opcode '0xx' = No Operation
 
